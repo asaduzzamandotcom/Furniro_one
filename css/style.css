@@ -1,0 +1,66 @@
+:root {
+  --primary: #b88e2f;
+  --secondary: black;
+  --font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* *COMMON CSS ENDS HERE */
+/* *NAVBAR STARTS HERE */
+nav .logo {
+  width: 20%;
+}
+
+nav .manu {
+  width: 50%;
+  text-align: center;
+}
+nav .manu ul {
+  justify-content: center;
+}
+nav .manu ul li a {
+  padding: 38px 37.5px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+}
+nav .quicklink{
+  width: 30%;
+  text-align: right;
+}
+nav .row{
+  align-items: center;
+}
+nav .quicklink a{
+  color: #000;
+  font-size: 25px;
+  margin: 0 25px;
+  display: inline-block;
+}
+/* *NAVBAR ENDS HERE */
